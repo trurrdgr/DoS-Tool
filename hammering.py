@@ -53,8 +53,8 @@ def getport():
 
 host = "newslinesrilanka.com"
 port = getport()
-speedPerRun = int(input(999)
-threads = int(input(999)
+speedPerRun = int(999)
+threads = int(999)
 
 ip = socket.gethostbyname(host)
 
