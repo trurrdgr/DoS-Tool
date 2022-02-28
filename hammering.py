@@ -45,13 +45,13 @@ print(ConsoleColors.BOLD + ConsoleColors.WARNING + '''
     
 def getport():
     try:
-        p = int(input(ConsoleColors.BOLD + ConsoleColors.OKGREEN + "Port:\r\n"))
+        p = int(443)
         return p
     except ValueError:
         print(ConsoleColors.BOLD + ConsoleColors.WARNING + "ERROR Port must be a number, Set Port to default " + ConsoleColors.OKGREEN + "80")
         return 80
 
-host = input(ConsoleColors.BOLD + ConsoleColors.OKBLUE + "Host:\r\n")
+host = input("newslinesrilanka.com")
 port = getport()
 speedPerRun = int(input(ConsoleColors.BOLD + ConsoleColors.HEADER + "Hits Per Run:\r\n"))
 threads = int(input(ConsoleColors.BOLD + ConsoleColors.WARNING + "Thread Count:\r\n"))
