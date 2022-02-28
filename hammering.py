@@ -51,10 +51,10 @@ def getport():
         print(ConsoleColors.BOLD + ConsoleColors.WARNING + "ERROR Port must be a number, Set Port to default " + ConsoleColors.OKGREEN + "80")
         return 80
 
-host = input("newslinesrilanka.com")
+host = "newslinesrilanka.com"
 port = getport()
-speedPerRun = int(input(ConsoleColors.BOLD + ConsoleColors.HEADER + "Hits Per Run:\r\n"))
-threads = int(input(ConsoleColors.BOLD + ConsoleColors.WARNING + "Thread Count:\r\n"))
+speedPerRun = int(input(9999)
+threads = int(input(9999)
 
 ip = socket.gethostbyname(host)
 
